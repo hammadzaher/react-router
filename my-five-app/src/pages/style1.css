@@ -1,0 +1,114 @@
+/* .home {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+ */
+.home1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: wheat;
+}
+.card {
+  border: 10px solid black;
+  border-radius: 20px;
+}
+.home-img {
+  width: 300px;
+  height: 200px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+/* /////////////////////////////////////////////////////////// */
+.about {
+  height: 100vh;
+  width: 100%;
+  background-color: blue;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+.contact {
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+.login {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+body {
+  background-color: white;
+}
+.first1 {
+  /* border: 1px solid black; */
+  margin-left: 70px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.first2 {
+  padding: 100px;
+}
+.first {
+  /* margin-top: 50px; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.first2 h2 {
+  font-weight: 400;
+  font-family: tahoma;
+}
+.ten {
+  display: flex;
+  align-items: center;
+}
+.second .kha {
+  margin: 0;
+  padding: 0;
+}
+.ten2 {
+  margin-left: -200px;
+}
+.ten2 b {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #136cff;
+}
+.ten2 b:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.first2 p {
+  color: grey;
+}
+.first2 p span {
+  color: #136cff;
+  font-size: 23px;
+}
+.first2 p span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.first2 h1 {
+  color: #f57224;
+  cursor: pointer;
+}
